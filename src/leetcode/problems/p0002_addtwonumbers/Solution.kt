@@ -1,4 +1,4 @@
-package leetcode.problems.`2_addtwonumbers`
+package leetcode.problems.p0002_addtwonumbers
 
 import leetcode.utils.ListNode
 

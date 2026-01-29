@@ -1,4 +1,4 @@
-package leetcode.problems.`1_twosum`
+package leetcode.problems.p0001_twosum
 
 /**
  * Synopsis:

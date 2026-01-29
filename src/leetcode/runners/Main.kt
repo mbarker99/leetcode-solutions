@@ -1,6 +1,6 @@
 package leetcode.runners
 
-import leetcode.problems.`2_addtwonumbers`.Solution
+import leetcode.problems.p0002_addtwonumbers.Solution
 import leetcode.utils.ListNode
 
 fun main() {
