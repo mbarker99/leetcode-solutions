@@ -1,13 +1,67 @@
-## My Leetcode Solutions
+# 📘 LeetCode Solutions (Kotlin)
+
+**Start Date:** 2026-01-29  
+**Language:** Kotlin  
+**IDE:** IntelliJ IDEA
 
 ---
 
-Start Date: 2026-01-29
+## 🎯 Purpose
 
-# Methods
+This repository documents my structured approach to strengthening my **data structures and algorithms** fundamentals while preparing for a **career pivot from Android development to backend engineering**.
 
-I am going to be using this as a means of improving my standing as a developer and particularly to branch out into backend development. In the past, I have neglected my data structures and algorithms because I have been a native Android developer, and they are not particularly used in that field.
+As a native Android engineer, my day-to-day work historically emphasized UI architecture, state management, and platform-specific concerns rather than classical DSA-heavy problem solving. This repository represents a deliberate effort to close that gap and build strong algorithmic intuition expected in backend and systems-oriented roles.
 
-My solutions will be written in Kotlin, as that is the language that I am comfortable with, and my plan is to pursue backend with Spring, so it will improve my knowledge of the language for the future.
+This is not a dump of solved problems — it is a **learning log**. Which means, of course, that it is subject to structural changes over time; I will do my best to document these changes when they arise.
 
-I will also be using IntelliJ IDEA as my IDE of choice for this, because it is similar to Android Studio, and designed with Kotlin in mind. Although I want to also learn VIM motions in the future so I might switch to NeoVim or just use the IdeaVim plugin.
+---
+
+## 🧠 Learning Philosophy
+
+For each problem, I focus on:
+
+- Writing **clear, idiomatic Kotlin**
+- Understanding **time and space complexity**
+- Favoring **single-pass, optimal solutions**
+- Maintaining **readable and explainable code**
+- Separating **core logic** from **execution/testing code**
+
+Problems are solved locally rather than directly on LeetCode to better simulate real-world development workflows.
+
+---
+
+## 🧩 Tech Stack & Tooling
+
+### Language: Kotlin
+- Kotlin is my primary language due to my Android background
+- I plan to pursue **backend development with Spring**, making Kotlin a strategic choice
+- Emphasis on:
+    - Null-safety
+    - Immutability where appropriate
+    - Idiomatic constructs (`?.`, `?:`, scope functions)
+
+### IDE: IntelliJ IDEA
+- Used instead of the LeetCode editor for:
+    - Better debugging
+    - Static analysis
+    - Refactoring tools
+- Project is structured as a proper Kotlin application, not scripts
+
+---
+
+## 🗂️ Repository Structure
+
+```text
+src/
+ └── leetcode/
+     ├── utils/                # Shared data structures (ListNode, TreeNode, etc.)
+     │
+     ├── problems/
+     │   ├── p0001_twosum/
+     │   │   └── Solution.kt
+     │   │
+     │   ├── p0002_addtwonumbers/
+     │   │   └── Solution.kt
+     │
+     └── runner/               # Runnable entry points for local testing
+         └── Main.kt
