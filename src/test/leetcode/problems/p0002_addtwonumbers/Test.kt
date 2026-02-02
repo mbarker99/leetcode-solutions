@@ -1,7 +1,6 @@
 package test.leetcode.problems.p0002_addtwonumbers
 
 import leetcode.problems.p0002_addtwonumbers.Solution
-import leetcode.utils.ListNode
 import leetcode.utils.listOfDigits
 import leetcode.utils.toList
 import org.junit.jupiter.api.Assertions.assertEquals
