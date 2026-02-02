@@ -1,5 +1,6 @@
-package leetcode.problems.p0001_twosum
+package test.leetcode.problems.p0001_twosum
 
+import leetcode.problems.p0001_twosum.Solution
 import org.junit.jupiter.api.Assertions.assertArrayEquals
 import org.junit.jupiter.api.Test
 
